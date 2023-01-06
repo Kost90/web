@@ -1,4 +1,5 @@
 @import 'common.css';
+@import "main.css";
 
 /*h1{*/
 /*    font-size:16px;*/
@@ -95,6 +96,7 @@ header .d-flex{
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 105px;
+    text-shadow: 4px 1px 8px #14d1ed;
 }
 
 .section-1 p{
@@ -102,6 +104,7 @@ header .d-flex{
     font-size: 15px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.81);
+    text-shadow: 4px 1px 8px #14d1ed;
 }
 .border{
     margin: 28px auto 42px;
@@ -189,14 +192,20 @@ header .d-flex{
     margin: 0px 5px 0px 5px;
     height: 100%;
     display: inline-block;
+    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
+    rgb(0 0 0 / 22%) 9px 20px 12px;
+}
+
+.card-3 :hover{
+    background-color: #FEFEC9;
 }
 
 .card-3-img{
     width: 100%;
     height: 100%;
     padding-bottom: 38px;
-    padding-right: 10px;
-    padding-left: 10px;
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
 }
 
 .section-3 h3 {
@@ -222,6 +231,59 @@ header .d-flex{
     line-height: 22px;
     color: #333333;
 }
+.section-4{
+    text-align: center;
+    background: #F5F5F5;
+}
+
+.section-4 h1{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    padding-top: 79px;
+}
+
+.container-card-4{
+    width: 300px;
+    text-align: center;
+    margin: 0px 10px 20px -10px;
+    height: 100%;
+    display: inline-block;
+}
+
+.card-4-img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 19px;
+    padding-right: 10px;
+}
+
+.section-4 h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.section-4 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.con-4-last{
+    padding-bottom: 69px;
+}
+
+
 
 /*.section-5{*/
 /*    padding-top: 69px;*/
@@ -253,5 +315,4 @@ header .d-flex{
 /*    display: inline-block;*/
 /*    background: #F5F5F5;*/
 /*}*/
-
 
