@@ -192,12 +192,11 @@ header .d-flex{
     margin: 0px 5px 0px 5px;
     height: 100%;
     display: inline-block;
-    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
-    rgb(0 0 0 / 22%) 9px 20px 12px;
 }
 
-.card-3 :hover{
-    background-color: #FEFEC9;
+.card-3:hover{
+    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
+    rgb(0 0 0 / 22%) 9px 20px 12px;
 }
 
 .card-3-img{
