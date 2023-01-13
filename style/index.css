@@ -23,10 +23,11 @@
     text-align: center;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
+/*img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
 .d-flex{
     display: flex;
 }
@@ -156,27 +157,16 @@ header .d-flex{
     border-left: 1px solid #47474F;
 }
 
-/*.bor{*/
-/*    width: 159px;*/
-/*    padding-top: 13px;*/
-/*    padding-right: auto;*/
-/*    padding-left: auto;*/
-/*    padding-bottom: 20px;*/
-/*    border-top: 1px solid #47474F;*/
-/*    border-right: 1px solid #47474F;*/
-/*    border-bottom: 2px solid #47474F;*/
-/*    border-left: 1px solid #47474F;*/
-/*    margin: 0 auto 61px;*/
-/*    font-size: 16px;*/
-/*    line-height: 20px;*/
-/*}*/
+.button:hover{
+    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
+    rgb(0 0 0 / 22%) 9px 20px 12px;
+}
 
 .section-3{
     text-align: center;
     background-color: #FFFFFF;
     z-index: -1;
 }
-
 .section-3 h1{
     font-weight: 400;
     font-size: 23px;
@@ -287,36 +277,174 @@ header .d-flex{
     padding-bottom: 69px;
 }
 
+.section-5{
+    padding-top: 69px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 69px;
+}
+
+.our {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+}
+
+.card{
+    width: 220px;
+    text-align: center;
+    margin: 5px;
+    height: 100%;
+    display: inline-block;
+}
+
+.picsec6{
+    background-size: cover;
+}
+
+.card h1{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+.card p{
+    padding: 6px 0 29px;
+}
+.card:hover{
+    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
+    rgb(0 0 0 / 22%) 9px 20px 12px;
+}
+
+.Vectors{
+    width: 29px;
+    margin: 0 3px;
+    padding: 0 8px;
+    display: inline-block;
+    background: #F5F5F5;
+}
+
+.section-6{
+    background: #F5F5F5;
+    padding: 69px 0;
+}
+
+.section-6 img{
+    width: 62px;
+    height: 62px;
+}
+
+.container .conque{
+    display: flex;
+    justify-content: center
+}
+
+div .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-6{
+    width: 447px;
+    text-align: center;
+    height: 100%;
+    display: inline-block;
+    margin-top: 67px;
+}
+.bord-2{
+    height: 215px;
+    background-color: #0000000A;
+    width: 2px;
+    display: inline-block;
+    margin-bottom: 98px;
+    margin-top: 67px;
+}
+.card-6 h1{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    padding-bottom: 24px;
+}
+
+.hcard-6{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    padding-bottom: 24px;
+}
+
+.card-6 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ABABAB;
+    padding-bottom: 98px;
+}
+.julius{
+    padding-bottom: 10px;
+}
+
+.section-7{
+    position: relative;
+    text-align: center;
+}
+
+.section-7 h1{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 79px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-7{
+    width: 319px;
+    text-align: center;
+    height: 100%;
+}
+
+.card-7 h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.card-7 p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+ .social-icon-7{
+     height: 14px;
+     width: 14px;
+     margin-right: 9px;
+ }
+
+ .div-soc-icon{
+     display: inline;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 20px;
+     margin-left: -4px;
+ }
 
 
-/*.section-5{*/
-/*    padding-top: 69px;*/
-/*    padding-right: auto;*/
-/*    padding-left: auto;*/
-/*    padding-bottom: 69px;*/
-/*}*/
-
-/*.our {*/
-/*    text-align: center;*/
-/*    margin: 0 auto;*/
-/*    font-weight: 400;*/
-/*    font-size: 23px;*/
-/*    line-height: 36px;*/
-/*}*/
-
-/*.card{*/
-/*    width: 220px;*/
-/*    text-align: center;*/
-/*    margin: 5px;*/
-/*    height: 100%;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.Vectors{*/
-/*    width: 29px;*/
-/*    margin: 29px 3px 9px;*/
-/*    padding: 1px 8px;*/
-/*    display: inline-block;*/
-/*    background: #F5F5F5;*/
-/*}*/
 
