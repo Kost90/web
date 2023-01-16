@@ -1,19 +1,6 @@
 @import 'common.css';
 @import "main.css";
 
-/*h1{*/
-/*    font-size:16px;*/
-/*    line-height: 20px;*/
-/*    margin: 20px 0 6px 0;*/
-/*    text-align: center;*/
-/*}*/
-
-/*p{*/
-/*    font-size:14px;*/
-/*    text-align: center;*/
-/*    margin: 6px 0 0 0;*/
-/*}*/
-
 .text{
     max-width: 200px;
     text-overflow: ellipsis;
@@ -22,11 +9,6 @@
     padding: 0 5px;
     text-align: center;
 }
-
-/*img {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
 
 .d-flex{
     display: flex;
@@ -51,6 +33,10 @@
 }
 .nav-links a{
     padding: 4px 17px;
+}
+
+.nav-links a:hover{
+    color: #8BCAC3;
 }
 
 .logo-img{
@@ -98,7 +84,7 @@ header .d-flex{
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 105px;
-    text-shadow: 4px 1px 8px #14d1ed;
+    text-shadow: 4px 1px 8px #706e6e;
 }
 
 .section-1 p{
@@ -106,7 +92,7 @@ header .d-flex{
     font-size: 15px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.81);
-    text-shadow: 4px 1px 8px #14d1ed;
+    text-shadow: 4px 1px 8px #706e6e;
 }
 .border{
     margin: 28px auto 42px;
@@ -161,6 +147,10 @@ header .d-flex{
 .button:hover{
     box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
     rgb(0 0 0 / 22%) 9px 20px 12px;
+    background: black;
+    color: #ABABAB;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .section-3{
@@ -186,8 +176,10 @@ header .d-flex{
 }
 
 .card-3:hover{
-    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
-    rgb(0 0 0 / 22%) 9px 20px 12px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 0.3s;
 }
 
 .card-3-img{
@@ -242,8 +234,10 @@ header .d-flex{
 }
 
 .container-card-4:hover{
-    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
-    rgb(0 0 0 / 22%) 9px 20px 12px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all 0.3s;
 }
 
 .card-4-img{
@@ -316,8 +310,10 @@ header .d-flex{
     padding: 6px 0 29px;
 }
 .card:hover{
-    box-shadow: rgb(0 0 0 / 30%) -3px -1px 38px,
-    rgb(0 0 0 / 22%) 9px 20px 12px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 0.3s;
 }
 
 .Vectors{
@@ -356,6 +352,7 @@ div .flex{
     display: inline-block;
     margin-top: 67px;
 }
+
 .bord-2{
     height: 215px;
     background-color: #0000000A;
@@ -364,6 +361,7 @@ div .flex{
     margin-bottom: 98px;
     margin-top: 67px;
 }
+
 .card-6 h1{
     font-weight: 400;
     font-size: 26px;
@@ -408,13 +406,12 @@ div .flex{
 
 .flex-sec-7{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 75px;
 }
 
 .card-7{
-    width: 319px;
     text-align: center;
     height: 100%;
 }
@@ -441,6 +438,14 @@ div .flex{
      margin-right: 9px;
  }
 
+ a svg{
+     color: black;
+ }
+
+ a svg:hover{
+     color: #ABABAB;
+ }
+
  .div-soc-icon{
      display: inline;
      font-weight: 400;
@@ -453,6 +458,8 @@ div .flex{
     display: flex;
     flex-direction: column;
     gap: 11px;
+    align-items: flex-start;
+    padding-left: 20px;
 }
 
 footer{
@@ -464,7 +471,7 @@ footer{
     padding-top: 69px;
 }
 
-input{
+form input{
     background: rgba(255, 255, 255, 0.18);
     font-style: italic;
     font-weight: 400;
@@ -475,6 +482,10 @@ input{
     color: #FFFFFF;
     text-align: left;
     padding-left: 10px;
+}
+
+form input[type=email]{
+    background: rgba(255, 255, 255, 0.2);
 }
 
 input::placeholder{
@@ -489,7 +500,7 @@ input::placeholder{
     padding-bottom: 17px;
 }
 
-textarea{
+form textarea{
     width: 564px;
     height: 127px;
     background: rgba(255, 255, 255, 0.2);
@@ -528,15 +539,17 @@ textarea::placeholder{
 .form-submit:hover{
     background: #8BCAC3;
     color: #000000;
+    cursor: pointer;
 }
 
-input:hover{
-    background: #ABABAB;
+input:focus{
+    border: 1px solid #8BCAC3;
 }
 
-textarea:hover{
-    background: #ABABAB;
+textarea:focus{
+    border: 1px solid #8BCAC3;
 }
+
 .p-footer{
     font-weight: 400;
     font-size: 15px;
