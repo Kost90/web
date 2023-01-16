@@ -35,7 +35,6 @@
 	</header>
 	<main>
 		<section class="section-1">
-			<img src="./images/section1bg.jpg" alt="section1 bg" class="bg-img">
 			<div class="container">
 				<h1>
 					Making brands stand out
@@ -232,12 +231,10 @@
 			</div>
 		</section>
 		<section class="section-7">
-			<img src="./images/background%20section-7.png" alt="backgroundimg" class="bg-img">
 			<div class="container">
 				<h1>let's get in touch</h1>
-			</div>
 			<div class="border"></div>
-			<div class="flex">
+			<div class="flex-sec-7">
 				<div class="card-7">
 					<img src="./images/location.png" alt="location-icon" style="width:44px; height:65px; margin:13px 0 26px;">
 					<h5>meet us in person</h5>
@@ -255,30 +252,55 @@
 					<p>Scroll down</p>
 				</div>
 				<div class="card-7">
-					<img src="./images/heart.png" alt="location-icon" style="width:68px; height:56px; margin:20px 0 28px;">
+					<img src="./images/heart.png" alt="location-icon" style="    width: 68px; height: 56px; margin: 0 0 28px;">
 					<h5>let's get socila</h5>
-					<div style="margin-bottom: 11px">
-						<svg class="social-icon-7">
+					<div class="flex-social">
+						<a href="">
+							<svg class="social-icon-7">
 						<use href="./sprites.svg#facebook-ico" xlink:href="./sprites.svg#facebook-ico"></use>
 					</svg>
-						<div class="div-soc-icon">Facebook</div>
-					</div>
-					<div style="margin-bottom: 11px">
-						<svg class="social-icon-7">
-							<use href="./sprites.svg#facebook-ico" xlink:href="./sprites.svg#facebook-ico"></use>
+						Facebook</a>
+						<a href="">
+							<svg class="social-icon-7">
+							<use href="./sprites.svg#twitter-ico" xlink:href="./sprites.svg#twitter-ico"></use>
 						</svg>
-						<div class="div-soc-icon">Facebook</div>
-					</div>
-					<div style="margin-bottom: 11px">
-						<svg class="social-icon-7">
-							<use href="./sprites.svg#facebook-ico" xlink:href="./sprites.svg#facebook-ico"></use>
+						Facebook</a>
+						<a href="">
+							<svg class="social-icon-7">
+							<use href="./sprites.svg#linkedin-icon" xlink:href="./sprites.svg#linkedin-icon"></use>
 						</svg>
-						<div class="div-soc-icon">Facebook</div>
+						Facebook</a>
 					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</section>
+		<footer>
+			<div class="form">
+				<form name="myform" action="">
+					<div><label for="fname">
+					</label><input type="text" id="fname" name="name" placeholder="Name" pattern="[A-Za-z]{1,32}" maxlength="30">
+					</div>
+					<div>
+						<label for="femail">
+						</label><input type="email" id="femail" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="background: rgba(255, 255, 255, 0.2);">
+					</div>
+					<div><label for="fbudget">
+					</label><input type="text" id="fbudget" name="budget" placeholder="Budget" pattern="[A-Za-z]{1,32}" maxlength="30">
+					</div>
+					<textarea name="messenger" placeholder="Describe youre project..." cols="30" rows="5"></textarea>
+					<div>
+						<input type="submit" value="Send Message" class="form-submit">
+					</div>
+				</form>
+				<img src="./images/footer-img.png" alt="picture">
+				<p class="p-footer">Minimal Template made in Webflow. All rights reserved.</p>
+
 
 			</div>
 
-		</section>
+		</footer>
 	</main>
 </body>
 </html>

@@ -68,8 +68,7 @@ header .d-flex{
 }
 
 .section-1{
-    /*background: center / cover url("/images/section1bg.jpg") no-repeat;*/
-    /*padding: 105px 0 101px;*/
+    background: center / cover url("/images/section1bg.jpg") no-repeat;
     text-align: center;
     position: relative;
 }
@@ -78,7 +77,9 @@ header .d-flex{
     position: absolute;
     display: block;
     z-index: -1;
+    object-fit: cover;
 }
+
 .close-icon{
     position: absolute;
     display: block;
@@ -390,6 +391,7 @@ div .flex{
 }
 
 .section-7{
+    background: center / cover url("/images/background section-7.png") no-repeat;
     position: relative;
     text-align: center;
 }
@@ -404,10 +406,11 @@ div .flex{
     padding-top: 79px;
 }
 
-.flex {
+.flex-sec-7{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 75px;
 }
 
 .card-7{
@@ -446,5 +449,102 @@ div .flex{
      margin-left: -4px;
  }
 
+.flex-social{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+}
+
+.form{
+    padding-top: 69px;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.18);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    width: 564px;
+    height: 57px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 18px;
+    padding-right: 494px;
+    padding-left: 21px;
+    padding-bottom: 17px;
+}
+
+textarea{
+    width: 564px;
+    height: 127px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px;
+}
+
+textarea::placeholder{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-left: 21px;
+    padding-top: 2px;
+    padding-right: 369px;
+    padding-bottom: 78px;
+}
+
+.form-submit{
+    border: 1px solid #8BCAC3;
+    width: 210px;
+    height: 53px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8BCAC3;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 37px;
+    background: #000000;
+}
+
+.form-submit:hover{
+    background: #8BCAC3;
+    color: #000000;
+}
+
+input:hover{
+    background: #ABABAB;
+}
+
+textarea:hover{
+    background: #ABABAB;
+}
+.p-footer{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 14px;
+    padding-bottom: 75px;
+}
 
 
