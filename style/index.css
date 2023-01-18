@@ -224,7 +224,7 @@ header .d-flex{
 
 
 .section-1{
-    background: center / cover url("../images/section1bg.jpg") no-repeat;
+    background: center / cover url("./images/section1bg.jpg") no-repeat;
     text-align: center;
     position: relative;
 }
@@ -283,6 +283,9 @@ header .d-flex{
 @media(max-width: 568px){
 
     .section-1{
+        background: center / cover url("./images/section1bg.jpg") no-repeat;
+        text-align: center;
+        position: relative;
         width: 100%;
     }
 
@@ -334,6 +337,9 @@ header .d-flex{
 @media(min-width: 568px){
 
     .section-1{
+        background: center / cover url("./images/section1bg.jpg") no-repeat;
+        text-align: center;
+        position: relative;
         width: 100%;
     }
 
@@ -385,6 +391,9 @@ header .d-flex{
 @media(min-width: 768px){
 
     .section-1{
+        background: center / cover url("./images/section1bg.jpg") no-repeat;
+        text-align: center;
+        position: relative;
         width: 100%;
     }
 
@@ -441,6 +450,11 @@ header .d-flex{
 }
 
 @media(min-width: 1024px){
+    .section-1{
+        background: center / cover url("./images/section1bg.jpg") no-repeat;
+        text-align: center;
+        position: relative;
+    }
 
     .bg-img{
         position: absolute;
@@ -1840,7 +1854,7 @@ div .flex{
 
 
 .section-7{
-    background: center / cover url("../images/background section-7.png") no-repeat;
+    background: center / cover url("./images/background section-7.png") no-repeat;
     position: relative;
     text-align: center;
 }
@@ -1919,7 +1933,7 @@ div .flex{
 
 @media(max-width: 568px){
     .section-7{
-        background: center / cover url("../images/background section-7.png") no-repeat;
+        background: center / cover url("./images/background section-7.png") no-repeat;
         position: relative;
         text-align: center;
         width: 100%;
@@ -2002,7 +2016,7 @@ div .flex{
 
 @media(min-width: 568px){
     .section-7{
-        background: center / cover url("../images/background section-7.png") no-repeat;
+        background: center / cover url("./images/background section-7.png") no-repeat;
         position: relative;
         text-align: center;
         width: 100%;
@@ -2085,7 +2099,7 @@ div .flex{
 
 @media(min-width: 768px){
     .section-7{
-        background: center / cover url("../images/background section-7.png") no-repeat;
+        background: center / cover url("./images/background section-7.png") no-repeat;
         position: relative;
         text-align: center;
         width: 100%;
@@ -2168,7 +2182,7 @@ div .flex{
 
 @media(min-width: 1024px){
     .section-7{
-        background: center / cover url("../images/background section-7.png") no-repeat;
+        background: center / cover url("./images/background section-7.png") no-repeat;
         position: relative;
         text-align: center;
     }
