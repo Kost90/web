@@ -14,6 +14,16 @@
     display: flex;
 }
 
+header{
+    padding: 18px 0;
+    background: white;
+}
+
+header .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -41,21 +51,11 @@
     height: 70px;
 }
 
-header{
-    padding: 18px 0;
-    background: white;
-
-}
-
-header .d-flex{
-    justify-content: space-between;
-    align-items: center;
-}
 
 @media(max-width: 568px){
-
     header{
-        width:100%;
+        background: white;
+        padding: 8px 0 8px 0;
     }
 
     .nav-links{
@@ -67,15 +67,8 @@ header .d-flex{
     }
 
     .logo-img{
-        width: 19px;
-        height: 59px;
-    }
-
-    header{
-        padding: 18px 0;
-        background: white;
-        max-width: 768px
-
+        width: 100%;
+        height: 100%;
     }
 
     header .d-flex{
@@ -1362,6 +1355,7 @@ div .flex-card-4{
     font-size: 23px;
     line-height: 36px;
 }
+
  div .flex-card-5{
      display: flex;
      justify-content: space-between;
@@ -1378,6 +1372,13 @@ div .flex-card-4{
     /*margin: 5px;*/
     height: 100%;
     display: inline-block;
+}
+
+.card:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all 0.3s;
 }
 
 .card h1{
@@ -1443,6 +1444,13 @@ div .flex-social-icon-5{
         display: inline-block;
     }
 
+    .card:hover{
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        transition: all 0.3s;
+    }
+
     .card h1{
         font-weight: 700;
         font-size: 18px;
@@ -1504,6 +1512,13 @@ div .flex-social-icon-5{
         /*margin: 5px;*/
         height: 100%;
         display: inline-block;
+    }
+
+    .card:hover{
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        transition: all 0.3s;
     }
 
     .card h1{
@@ -1569,6 +1584,13 @@ div .flex-social-icon-5{
         display: inline-block;
     }
 
+    .card:hover{
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        transition: all 0.3s;
+    }
+
     .card h1{
         font-weight: 700;
         font-size: 18px;
@@ -1626,6 +1648,13 @@ div .flex-social-icon-5{
         /*margin: 5px;*/
         height: 100%;
         display: inline-block;
+    }
+
+    .card:hover{
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+        rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        transition: all 0.3s;
     }
 
     div .flex-social-icon-5 {
@@ -2406,6 +2435,107 @@ textarea:focus{
     padding-bottom: 75px;
 }
 
+
+@media(max-width: 568px){
+    footer{
+        background: #000000;
+        text-align: center;
+        width: 100%;
+    }
+
+    .form{
+        padding-top: 39px;
+    }
+
+    form input{
+        background: rgba(255, 255, 255, 0.18);
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        width: 345px;
+        height: 41px;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    form input[type=email]{
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    input::placeholder{
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding-top: 18px;
+        padding-right: 494px;
+        padding-left: 21px;
+        padding-bottom: 17px;
+    }
+
+    form textarea{
+        width: 345px;
+        height: 75px;
+        background: rgba(255, 255, 255, 0.2);
+        color: #FFFFFF;
+        text-align: left;
+        padding: 10px;
+    }
+
+    textarea::placeholder{
+        font-style: italic;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+        padding-left: 21px;
+        padding-top: 2px;
+        padding-right: 159px;
+        padding-bottom: 78px;
+    }
+
+    .form-submit{
+        border: 1px solid #8BCAC3;
+        width: 150px;
+        height: 46px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #8BCAC3;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 22px;
+        background: #000000;
+    }
+
+    .form-submit:hover{
+        background: #8BCAC3;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    input:focus{
+        border: 1px solid #8BCAC3;
+    }
+
+    textarea:focus{
+        border: 1px solid #8BCAC3;
+    }
+
+    .p-footer{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 8px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.4);
+        margin-top: 14px;
+        padding-bottom: 30px;
+    }
+}
 
 @media(min-width: 568px){
     footer{
