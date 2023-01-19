@@ -2541,6 +2541,7 @@ textarea:focus{
     footer{
         background: #000000;
         text-align: center;
+        width: 100%;
     }
 
     .form{
@@ -2641,6 +2642,7 @@ textarea:focus{
     footer{
         background: #000000;
         text-align: center;
+        width: 100%;
     }
 
     .form{
