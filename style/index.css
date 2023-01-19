@@ -29,7 +29,6 @@ header .d-flex{
     margin: 0 auto;
 }
 
-
 .nav-links{
     text-transform: uppercase;
     font-size: 12px;
@@ -68,7 +67,7 @@ header .d-flex{
     }
 
     .logo-img{
-        width: 100%;
+        width: 100px;
         height: 100%;
         padding-left: 5px;
     }
@@ -78,9 +77,10 @@ header .d-flex{
     }
 
     header .d-flex{
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         display: flex;
+        gap: 10px;
     }
 
     .nav-links a{
