@@ -17,6 +17,7 @@
 header{
     padding: 18px 0;
     background: white;
+    overflow-x: hidden;
 }
 
 header .d-flex{
@@ -60,6 +61,7 @@ header .d-flex{
         background: white;
         padding: 8px 0 8px 0;
         max-width: 100%;
+        overflow-x: hidden;
     }
 
     .nav-links{
@@ -103,7 +105,10 @@ header .d-flex{
     }
 
     header{
+        background: white;
+        padding: 8px 0 8px 0;
         max-width:100%;
+        overflow-x: hidden;
     }
 
     .nav-links{
@@ -2868,12 +2873,12 @@ textarea:focus{
 
     .form-submit{
         border: 1px solid #8BCAC3;
-        width: 210px;
+        width: 100px;
         height: 53px;
         font-style: italic;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 10px;
+        line-height: 18px;
         color: #8BCAC3;
         text-align: center;
         margin-top: 23px;
