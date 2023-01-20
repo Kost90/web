@@ -52,6 +52,10 @@ header .d-flex{
 
 
 @media(max-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
+
     header{
         background: white;
         padding: 8px 0 8px 0;
@@ -93,6 +97,9 @@ header .d-flex{
 }
 
 @media(min-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
 
     header{
         max-width:100%;
@@ -285,6 +292,9 @@ header .d-flex{
 }
 
 @media(max-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
 
     .section-1{
         background: center / cover url("../images/section1bg.jpg") no-repeat;
@@ -339,6 +349,10 @@ header .d-flex{
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
 
     .section-1{
         background: center / cover url("../images/section1bg.jpg") no-repeat;
@@ -552,6 +566,9 @@ header .d-flex{
 }
 
 @media(max-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
 
     .section-2{
         width: 100%;
@@ -593,6 +610,9 @@ header .d-flex{
 }
 
 @media(min-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
 
     .section-2{
         width: 100%;
@@ -777,6 +797,9 @@ div .flex-card-3{
 }
 
 @media(max-width: 568px){
+    body{
+        overflow-x: hidden;
+    }
 
     .section-3{
         width: 100%;
@@ -844,6 +867,10 @@ div .flex-card-3{
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
 
     .section-3{
         width: 100%;
@@ -1103,6 +1130,10 @@ div .flex-card-4{
 
 @media(max-width: 568px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     .section-4{
         width: 100%;
     }
@@ -1167,6 +1198,10 @@ div .flex-card-4{
 
 @media(min-width: 568px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     .section-4{
         width: 100%;
     }
@@ -1230,6 +1265,7 @@ div .flex-card-4{
 }
 
 @media(min-width: 768px){
+
     .section-4{
         width: 100%;
     }
@@ -1426,6 +1462,10 @@ div .flex-social-icon-5{
 
 @media(max-width: 568px){
 
+    body{
+        overflow-x: hidden;
+    }
+
     .section-5{
         width: 100%;
     }
@@ -1495,6 +1535,10 @@ div .flex-social-icon-5{
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
 
     .section-5{
         width: 100%;
@@ -1756,6 +1800,11 @@ div .flex{
 }
 
 @media(max-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .section-6{
         background: #F5F5F5;
         padding: 39px 0 10px;
@@ -1774,26 +1823,47 @@ div .flex{
         padding-bottom: 3px;
     }
 
+    .card-6 p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ABABAB;
+        padding-bottom: 10px;
+    }
+
+    div .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .card-6{
-        width: 447px;
         text-align: center;
         height: 100%;
         display: inline-block;
         margin-top: 33px;
+        width: 100%;
     }
 
     .bord-2{
-        height: 212px;
+        height: 3px;
         background-color: #00000033;
-        width: 2px;
+        width: 150px;
         display: inline-block;
-        margin-bottom: 78px;
-        margin-top: 44px;
+        margin-bottom: 5px;
+        margin-top: 20px;
     }
 
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .section-6{
         background: #F5F5F5;
         padding: 39px 0 10px;
@@ -2017,6 +2087,11 @@ div .flex{
 }
 
 @media(max-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .section-7{
         background: center / cover url("../images/background section-7.png") no-repeat;
         position: relative;
@@ -2100,6 +2175,11 @@ div .flex{
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .section-7{
         background: center / cover url("../images/background section-7.png") no-repeat;
         position: relative;
@@ -2448,6 +2528,11 @@ textarea:focus{
 
 
 @media(max-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     footer{
         background: #000000;
         text-align: center;
@@ -2549,6 +2634,11 @@ textarea:focus{
 }
 
 @media(min-width: 568px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     footer{
         background: #000000;
         text-align: center;
