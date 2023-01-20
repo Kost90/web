@@ -1475,7 +1475,7 @@ div .flex-social-icon-5{
     }
 
     .card{
-        width: 220px;
+        width: 100%;
         text-align: center;
         /*margin: 5px;*/
         height: 100%;
@@ -1545,7 +1545,7 @@ div .flex-social-icon-5{
     }
 
     .card{
-        width: 220px;
+        width: 100%;
         text-align: center;
         /*margin: 5px;*/
         height: 100%;
