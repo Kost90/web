@@ -529,6 +529,7 @@ header .d-flex{
 .section-2{
     text-align: center;
     background-color: #FEFEC9;
+    padding-bottom: 20px;
 }
 
 .section-2 h2{
@@ -572,6 +573,7 @@ header .d-flex{
 
     .section-2{
         width: 100%;
+        padding-bottom: 20px;
     }
 
     .section-2 h2{
@@ -616,6 +618,7 @@ header .d-flex{
 
     .section-2{
         width: 100%;
+        padding-bottom: 20px;
     }
 
     .section-2 h2{
@@ -657,6 +660,7 @@ header .d-flex{
 
     .section-2{
         width: 100%;
+        padding-bottom: 20px;
     }
 
     .section-2 h2{
@@ -695,6 +699,12 @@ header .d-flex{
 }
 
 @media(min-width: 1024px){
+
+    .section-2{
+        text-align: center;
+        background-color: #FEFEC9;
+        padding-bottom: 20px;
+    }
 
     .section-2 h2{
         font-weight: 400;
