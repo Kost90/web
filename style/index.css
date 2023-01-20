@@ -81,7 +81,7 @@ header .d-flex{
     }
 
     header .d-flex{
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         display: flex;
         gap: 10px;
@@ -128,9 +128,10 @@ header .d-flex{
     }
 
     header .d-flex{
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         display: flex;
+        gap: 10px;
         flex-wrap: wrap;
     }
 
